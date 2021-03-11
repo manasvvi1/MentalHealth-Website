@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration Form Design</title>
+</head>
+<style>
+    body{
+        background-image: url(https://transporter.techvrm.com/SignUpAssets/img/backgrounds/1@2x.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .login-page{
+        width: 360px;
+        padding: 10% 0 0;
+        margin: auto;
+    }
+    .form{
+        position: relative;
+        z-index: 1;
+        background: rgba(7, 40, 195, 0.8);
+        max-width: 360px;
+        margin: 0 auto 100px;
+        padding: 45px;
+        text-align: center;
+    }
+    .form input{
+        font-family: "Roboto", sans-serif;
+        outline: 1;
+        background: #f2f2f2;
+        width:100%;
+        border:0;
+        margin: 0 0 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    .form button{
+        font-family:"Roboto", sans-serif;
+        text-transform: uppercase;
+        outline: 0;
+        background: #4caF50;
+        width: 100%;
+        padding: 15px;
+        color: #FFFFFF;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .form button:hover,.form button:active{
+        background: #43A047;
+    }
+    .form .message{
+        margin: 15px;
+        color:aliceblue;
+        font-size: 12px;
+    }
+    .form .message a{
+        color: #4CAF50;
+        text-decoration: none;
+    }
+    .form .register-form{
+        display: none;
+    }
+</style>
+<body>
+    <div class="login-page">
+        <div class="form">
+        <form class="register-form">
+            <input type="text" placeholder="user name"/>
+            <input type="text" placeholder="password"/>
+            <input type="text" placeholder="email id"/>
+            <button>Create</button>
+            <p class="message">Already Registered? <a href="#">Login</a></p>
+        </form>
+        <form class="login-form">
+            <input type="text" placeholder="user name"/>
+            <input type="text" placeholder="password"/>
+            <button>login</button>
+            <p class="message">Not Registered? <a href="#">Register</a></p>
+        </form>
+    </div>
+    <script src='https://code.jquery.com/jquery-3.5.1.min.js'>
+    </script>
+    <script>
+        $('.message a').click(function(){
+            $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+        });
+    </script>
+</body>
+</html>

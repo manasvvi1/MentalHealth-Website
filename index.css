@@ -1,0 +1,88 @@
+body {
+    background-image: url("images\ \(1\).jfif");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+.name-of-org {
+    background-image: url("2091401.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 8% 20%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff700de;
+    display:block;
+    font-size: larger;
+    border-radius: 10%;
+    font-weight: bold;
+
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+h6{
+    font-size: 25px;
+}
+
+#AWWA{
+    padding: 0% 30%;
+    text-align: center;
+}
+
+#quote{
+    color: darkolivegreen;
+    background-color:rgb(204, 233, 233);
+    text-align: center;
+    font-family: cursive;
+}
+
+
+#navigation ul{
+    padding: 20px 10px;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(15, 38, 73);
+    float: left;
+    list-style-type:none;
+    font-size: large;
+    color: floralwhite;
+    padding-bottom: 30%;
+}
+
+a{
+   color: rgb(240, 230, 230);
+   text-decoration: cornsilk;
+   font-size: 20px;
+}
+
+a:hover{
+    color: rgb(172, 223, 148);
+}
+
+a:visited{
+    color: paleturquoise;
+}
+
+.right-side {
+    float: right;
+    width: 20%;
+    padding: 20px 10px;
+    border-radius: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(15, 38, 73);
+    list-style-type:none;
+    font-size: large;
+    color: floralwhite;
+}
+
+.right-side a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#intro{
+    border: none; 
+    padding: 2in 4in;
+    background-image: url("mental-health-during-covid-19-960x561.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

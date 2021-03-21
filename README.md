@@ -13,5 +13,8 @@ Our site gives information about mental disorders and the concept of law of attr
 
 Even a small initiative by us might bring a big change in the society.
 
+
+
 TEAM AWWA
+
 Accepting Who We Are 
